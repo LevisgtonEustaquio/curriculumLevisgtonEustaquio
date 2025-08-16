@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Currículo Levisgton Eustáquio</title>
     <link rel="stylesheet" href="assets/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
 </head>
 
 <body>
@@ -14,14 +16,36 @@
 
         <header>
             <div class="navbar">
+
                 <img src="assets/img/levisgton.jpg" alt="Imagem de um homem, Levisgton Eustáquio">
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="projecao.html">Projeção para o Futuro</a></li>
-                        <li><a href="https://www.linkedin.com/in/levisgtoneustaquio/" target="_blank">Linkedin</a></li>
-                        <li><a href="https://github.com/LevisgtonEustaquio" target="_blank">GitHub</a></li>
-                    </ul>
+
+                <nav class="navbarDrop navbar-expand-lg">
+
+                    <div class="container-fluid">
+
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="projecao.html">Projeção para o futuro</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle  " href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Redes Sociais
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="https://www.linkedin.com/in/levisgtoneustaquio/"
+                                                target="_blank">Linkedin</a></li>
+                                        <li><a href="https://github.com/LevisgtonEustaquio" target="_blank">GitHub</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </nav>
             </div>
         </header>
@@ -34,9 +58,10 @@
                 projeto executado pela entidade <a href="https://bfd.softexpe.org.br/"
                     target="_blank">Softex</a>.<br>Escolhi
                 a trilha
-                de Front-End, que é que eu mais me identifiquei, para o futuro não descarto a possibilidade de aprender
+                de Front-End, a que eu mais me identifiquei, para o futuro não descarto a possibilidade de aprender
                 e
-                trabalhar com o Back-end, na qual tive uma breve experiência em C++ criando códigos para robôs do tipo
+                trabalhar com o Back-end e fazer uso dela no contexto Fullstack e quem sabe um dia me especializar em
+                DevOps, com o Back-end uma breve experiência em C++ criando códigos para robôs do tipo
                 LEGO e circuitos arduinos, também criei algoritimos para CLP's,
                 durante o curso de Mecatrônica. <br>Estou animado em aprender o framework React, que é a proposta do
                 programa BFD, que será de grande recurso para minha inclusão no mercado de trabalho, abrindo portas para
@@ -54,6 +79,13 @@
     <footer>
         <p>&copy Criado por Levisgton Eustáquio - 2025</p>
     </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+
+    <script src="assets/script.js"></script>
 
 </body>
 
